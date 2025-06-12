@@ -4,24 +4,28 @@ import { cn } from "@/lib/utils";
 const skills = [
 
   // Backend
-  { name: "pandas", level: 80, category: "backend" },
+  { name: "pandas", level: 95, category: "backend" },
   { name: "scikit-learn", level: 85, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "DAX", level: 85, category: "backend" },
+  { name: "PySpark", level: 85, category: "backend" },
   { name: "tidymodels", level: 90, category: "backend" },
-  { name: "PySpark", level: 80, category: "backend" },
+  { name: "ggplot2", level: 90, category: "backend" },
+  { name: "MongoDB", level: 75, category: "backend" },
+  { name: "PostgreSQL", level: 80, category: "backend" },
+  { name: "DAX", level: 85, category: "backend" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "Microsoft Power BI", level: 95, category: "tools" },
-  { name: "Microsoft Fabric", level: 85, category: "tools" },
-  { name: "SSRS/SSMS", level: 90, category: "tools" },
+  { name: "Microsoft Fabric", level: 80, category: "tools" },
+  { name: "Apache Spark", level: 80, category: "tools" },
+  { name: "Apache Hadoop", level: 75, category: "tools" },
+  { name: "Tableau", level: 95, category: "tools" },
+  { name: "Microsoft Excel", level: 90, category: "tools" },
+  { name: "Git/GitHub", level: 90, category: "tools" },
 
   // Frontend
-  { name: "HTML/CSS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 85, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
+  { name: "HTML/CSS", level: 85, category: "frontend" },
+  { name: "JavaScript", level: 80, category: "frontend" },
+  { name: "Tailwind CSS", level: 80, category: "frontend" },
 ];
 
 const categories = ["all", "backend", "frontend", "tools"];

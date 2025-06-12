@@ -12,20 +12,17 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Aspiring Data Scientist
+              Aspiring Data Scientist & ML Engineer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+            With a strong foundation in Python and R, I specialize in building data-driven solutions—from insightful dashboards to predictive machine learning models. I’ve worked extensively with libraries like scikit-learn and TensorFlow in Python, and tidymodels and ggplot2 in R to turn raw data into actionable insights.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            I'm passionate about uncovering patterns in data and crafting elegant, scalable solutions to complex problems. I’m always learning, staying up to date with the latest tools and techniques in data science and machine learning.
+
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -52,8 +49,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Data Engineering</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                  Designing scalable data pipelines and transforming raw data into reliable, analytics-ready assets.
                   </p>
                 </div>
               </div>
@@ -66,8 +62,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">BI Development</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                  Building intuitive dashboards and reports that turn complex data into clear, actionable insights.
                   </p>
                 </div>
               </div>
@@ -81,8 +76,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Machine Learning</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                  Developing predictive models and intelligent systems that uncover patterns and drive data-informed decisions.
                   </p>
                 </div>
               </div>
